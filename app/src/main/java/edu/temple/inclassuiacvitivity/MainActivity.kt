@@ -38,6 +38,6 @@ class MainActivity : AppCompatActivity() {
 
             }
         }
-
+        spinner.adapter = TextSizeAdapter(this, numberArray)
     }
 }
